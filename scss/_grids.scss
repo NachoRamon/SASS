@@ -1,0 +1,61 @@
+/* GRIDS */
+
+#gridAreasIndex {
+    display: grid;
+    /* grid por areas */
+    grid-template-areas:
+    /* 1 columnas y 5 filas */
+    "menu "
+    "nosotros "
+    "repre"
+    "productos"
+    "atajos"
+    "lugar "/* fila 3 */
+    "pie "/* fila 4 */
+    ;
+    /* Dimensiones */
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 0;
+    }
+
+    /* Grid por area Tablet */
+
+    #gridAreasIndex {
+    display: grid;
+    /* grid por areas */
+    grid-template-areas:
+    /* 1 columnas y 6 filas */
+    "cabeza "
+    "menu "
+    "nosotros"
+    "repre"
+    "atajos"
+    "lugar "
+    "pie "
+    ;
+    /* Dimensiones */
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 0;
+    }
+
+    /* Grids por area mobile */
+
+    #gridAreasIndex {
+    display: grid;
+    /* grid por areas */
+    grid-template-areas:
+    /* 1 columnas y 6 filas */
+    "cabeza "
+    "menu "
+    "nosotros"
+    "repre"
+    "lugar "
+    "pie "
+    ;
+    /* Dimensiones */
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 0;
+    }
