@@ -23,18 +23,44 @@
   border-top: solid 40px white;
 }
 
-.titulos {
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
 .centrar {
   text-align: center;
 }
 
 .fondo {
   background-color: #d3d3d3;
+}
+
+.titulos, .titulos-secu {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+/* Extend */
+.titulos-secu {
+  margin-top: 30px;
+}
+
+/* Mixes */
+.caja-1 {
+  width: 500px;
+  height: 200px;
+}
+
+.caja-2 {
+  width: 500px;
+  height: 200px;
+}
+
+.caja-3 {
+  width: 500px;
+  height: 200px;
+}
+
+.caja-4 {
+  width: 500px;
+  height: 200px;
 }
 
 /* Animaciones */
@@ -137,6 +163,7 @@ body section p {
   padding: 60px;
 }
 
+/* Mapas */
 /* GRIDS */
 #gridAreasIndex {
   display: grid;

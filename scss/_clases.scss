@@ -24,16 +24,47 @@
     border-top: solid 40px white;
 }
 
-.titulos{
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-
 .centrar{
     text-align: center;
 }
 
 .fondo{
     background-color: #d3d3d3;
+}
+
+.titulos {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+/* Extend */
+
+.titulos-secu {
+    @extend .titulos;
+    margin-top: 30px;
+}
+
+/* Mixes */
+
+@mixin tamanio ($anchura, $altura) {
+    width: $anchura;
+    height: $altura;
+    
+}
+
+.caja-1{
+    @include tamanio(500px, 200px)
+}
+
+.caja-2{
+    @include tamanio(500px, 200px)
+}
+
+.caja-3{
+    @include tamanio(500px, 200px)
+}
+
+.caja-4{
+    @include tamanio(500px, 200px)
 }
